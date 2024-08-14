@@ -87,7 +87,6 @@ const MeshCard = ({ selectedMesh }) => {
 
   return (
     <div className="mesh-card">
-      <h3>Mesh Properties</h3>
       <p>Selected Mesh: {meshProperties.name}</p>
       <div>
         <label>
