@@ -137,6 +137,8 @@ const Sidebar = ({
         Depth:
         <input type="number" value={modelDimensions.depth} readOnly />
       </label>
+
+      <h2>Mesh Properties</h2>
       <MeshCard selectedMesh={selectedMesh} />
 
       <h2>Mesh Hierarchy</h2>
