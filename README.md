@@ -58,4 +58,4 @@ Make sure you have the following installed:
 
 
 ## Organization Contributor
-**Fabrik** is an immersive technology company using AR/VR capabilities to solve machine simulation and installation/downtime challenges for enterprises. Fabrik aggregates knowledge and represents them visually for individuals or teams to resolve complex problems quickly and cost-effectively. We help customers transition from obsolete 2D interactions to 3D immersive experiences.
+**Fabrik** is an immersive technology company using AR/VR capabilities to solve machine simulation and installation/downtime challenges for enterprises. Fabrik aggregates knowledge and represents them visually for individuals or teams to resolve complex problems quickly and cost-effectively. It help customers transition from obsolete 2D interactions to 3D immersive experiences.
