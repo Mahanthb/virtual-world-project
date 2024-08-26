@@ -1,14 +1,16 @@
 # Virtual World
 This application allows users to upload GLTF/GLB files from either local storage or Firebase and view them in the scene. It includes controls for manipulating light, offering 4 types of lights with options to change their position and color. Scene properties can be adjusted, such as showing the wireframe of the entire model, enabling autorotation, changing the background color, and displaying a grid with customizable size and divisions. Users can view the dimensions and mesh hierarchy of the model, play and pause animations, and interact with specific meshes. Upon selecting a mesh, users can see the mesh name and manipulate it by changing its color, wireframe, transparency, and adjusting its position, rotation, and scale along the x, y, and z axes. Edited models can be exported back to local storage or Firebase. Additionally, users can select and play animations in the scene and view the modified model in AR by loading it from Firebase.
 
-## Tech stack used
-**React:** For building the user interface.
-**Three.js:** For rendering 3D models and scenes.
-**@react-three/fiber:** A React renderer for Three.js.
-**@react-three/drei:** A collection of useful helpers and abstractions for react-three-fiber.
-**@google/model-viewer:** For AR model viewing and interactions.
-**Firebase:** For backend services, including storage and real-time database.
-**emailjs-com:** For sending emails directly from JavaScript.
+## Tech Stack Used
+
+- **React:** A JavaScript library for building user interfaces, providing a declarative and component-based architecture.
+- **Three.js:** A powerful library for creating 3D graphics in the browser, used for rendering 3D models and scenes.
+- **@react-three/fiber:** A React renderer for Three.js, enabling the creation of 3D scenes using React components.
+- **@react-three/drei:** A collection of useful helpers and abstractions built on top of `react-three-fiber`, simplifying 3D development.
+- **@google/model-viewer:** A web component that allows users to view and interact with 3D models in AR.
+- **Firebase:** A comprehensive backend service providing real-time database, authentication, and storage solutions.
+- **emailjs-com:** A JavaScript library for sending emails directly from the client-side, without the need for a backend.
+
 
 
 ## Clone the Repository
