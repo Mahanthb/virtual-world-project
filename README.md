@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Virtual World
+This application allows users to upload GLTF/GLB files from either local storage or Firebase and view them in the scene. It includes controls for manipulating light, offering 4 types of lights with options to change their position and color. Scene properties can be adjusted, such as showing the wireframe of the entire model, enabling autorotation, changing the background color, and displaying a grid with customizable size and divisions. Users can view the dimensions and mesh hierarchy of the model, play and pause animations, and interact with specific meshes. Upon selecting a mesh, users can see the mesh name and manipulate it by changing its color, wireframe, transparency, and adjusting its position, rotation, and scale along the x, y, and z axes. Edited models can be exported back to local storage or Firebase. Additionally, users can select and play animations in the scene and view the modified model in AR by loading it from Firebase.
+## Tech stack used
+React: For building the user interface.
+Three.js: For rendering 3D models and scenes.
+@react-three/fiber: A React renderer for Three.js.
+@react-three/drei: A collection of useful helpers and abstractions for react-three-fiber.
+@google/model-viewer: For AR model viewing and interactions.
+Firebase: For backend services, including storage and real-time database.
+emailjs-com: For sending emails directly from JavaScript.
+## Clone the Repository
+Open Terminal or Command Prompt:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+On Windows: You can use Command Prompt, PowerShell, or Git Bash.
+On macOS/Linux: Use the Terminal.
+Navigate to the Desired Directory: Choose where you want to clone the repository on your local machine.
 
-## Available Scripts
+bash
+Copy code
+cd /path/to/your/directory
+Clone the Repository:
 
-In the project directory, you can run:
+Run the following command to clone the repository:
 
-### `npm start`
+bash
+Copy code
+git clone https://github.com/Mahanthb/virtual-world-project.git
+Navigate to the Project Directory:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+After cloning, change into the project directory:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copy code
+cd virtual-world-project
+Install Dependencies:
 
-### `npm test`
+Make sure you have Node.js and npm installed. Then, run the following command to install the necessary dependencies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+bash
+Copy code
+npm install
+Start the Development Server:
 
-### `npm run build`
+After the installation is complete, start the development server:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+bash
+Copy code
+npm start
+Open the Project in Your Browser:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Once the server is running, the project should automatically open in your default web browser. If it doesn't, you can manually open it by navigating to http://localhost:3000 in your browser.
+## Contributors
+#### Mahanth Kumar B
+Nipunn
+## Organization Contributor
+Fabrik is an immersive technology company using AR/VR capabilities to solve machine simulation and installation/downtime challenges for enterprises. Fabrik aggregates knowledge and represents them visually for individuals or teams to resolve complex problems quickly and cost-effectively. We help customers transition from obsolete 2D interactions to 3D immersive experiences.
